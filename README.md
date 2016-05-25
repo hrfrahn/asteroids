@@ -22,23 +22,42 @@ Kai wrote the GraphicsObject, Bullet, and Asteroid classes, and also made the UM
 
 Troubleshooting:
 On some versions of Eclipse, JavaFX is restricted by default, and you need to allow access to it manually. To do this, follow these instructions:
+
 right click on the project in the package explorer
+
 click 'properties' (it's at the bottom)
+
 select ‘Java Build Path’ from the left sidebar
+
 click Libraries
+
 open the dropdown on JRE System Library, then click Access Rules
+
 click 'Edit' on the right sidebar
+
 click 'Add' in the window that opens
+
 in the text box, type 'javafx/**'
+
 set the resolution to 'Accessible' from the above dropdown
+
 click 'okay' to everything 
 
+
 If this doesn’t work, make sure that the eclipse project that the game is running in is using the JRE 1.8, not 1.7. To do this:
+
 right click on the project in the package explorer
+
 click 'properties' (it's at the bottom)
+
 select ‘Java Build Path’ from the left sidebar
+
 click Libraries
+
 click on the JRE System Library
+
 click ‘Edit’ on the right sidebar
+
 change the execution environment from ‘JavaSE-1.7’ to ‘JavaSE-1.8’
+
 click ‘okay’ to everything
