@@ -1,5 +1,6 @@
 # asteroids
 ASTEROIDS
+
 by Harrison Frahn and Kai Hodge
 
 This is a simple clone of the classic game Asteroids,, written in Java using the JavaFX graphics library. To run it, simply drag all the files into an eclipse project and hit Run.
